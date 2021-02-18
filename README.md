@@ -4,4 +4,4 @@ Not sure if I understand the -O option in n2disk correctly, it currently doesn't
 
 As of publishing this script the functionality as described is not what I experience, so I created a bash script to basically do something similar
 
-The name of the game is maintain as long an unbroken (or as close to unbroken as I can get) timeline of raw pcaps
+The name of the game is maintaining as long an unbroken (or as close to unbroken as I can get) chain of raw pcaps written by n2disk
