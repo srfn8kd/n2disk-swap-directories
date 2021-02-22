@@ -33,5 +33,6 @@ echo "Updating n2disk data dir to data2"
 fi
 fi
 
+sleep 2
 
 done
