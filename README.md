@@ -1,7 +1,3 @@
 # n2disk-swap-directories
 
-Not sure if I understand the -O option in n2disk correctly, it currently doesn't function as I thought it would, which was to fill up the primary repository, then begin copying over data from the primary repository to the secondary repository instead of deleting the file that would be rotated out of the primary; all the while also maintaining the secondary repository and finally deleting files from there; while maintaining the maximum disk usage setting for both repositories
-
-As of publishing this script the functionality as described is not what I experience, so I created a bash script to basically do something similar
-
-The name of the game is maintaining as long an unbroken (or as close to unbroken as I can get) chain of raw pcaps written by n2disk
+The name of the game is maintaining as long an unbroken (or as close to unbroken as I can get) chain of raw pcaps written by n2disk as the -O option does not seem to be functioning on CentOS 8 and latest pf_ring/n2disk packages
